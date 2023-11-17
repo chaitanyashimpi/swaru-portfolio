@@ -27,6 +27,7 @@ const Header = () => {
 				<li>
 					<Link href="/">Resume</Link>
 				</li>
+				<div className="sideBackDoor" onClick={menuItemOpener} style={menu ? { right: "0", width: '0px' } : { right: "300px", width: "calc(100vw - 300px)" }}></div>
 			</ul>
 
 			{menu ? (
