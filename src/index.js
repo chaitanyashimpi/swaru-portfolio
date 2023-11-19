@@ -9,11 +9,16 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
+import Contact from './pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <><Header /><App/></>,
+  },
+  {
+    path: "/contact-swarupa-bagade",
+    element: <><Header /><Contact /></>,
   },
 ]);
 
